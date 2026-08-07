@@ -1,11 +1,34 @@
 {
+  "name": "spearhead-platform",
+  "version": "0.1.0",
   "private": true,
-
   "packageManager": "pnpm@10",
 
   "workspaces": [
     "apps/*",
     "packages/*",
     "plugins/*"
-  ]
+  ],
+
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "turbo run typecheck"
+  },
+
+  "devDependencies": {
+    "turbo": "^2.1.0",
+    "typescript": "^5.8.3",
+    "prettier": "^3.6.0"
+  },
+
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10"
+  }
 }
