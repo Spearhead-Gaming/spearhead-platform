@@ -1,0 +1,39 @@
+{
+  "primary": {
+    "50": "#F2F7FF",
+    "100": "#D9E8FF",
+    "200": "#B3D1FF",
+    "300": "#80B3FF",
+    "400": "#4D94FF",
+    "500": "#1E88E5",
+    "600": "#1565C0",
+    "700": "#0D47A1",
+    "800": "#08306B",
+    "900": "#041C3D"
+  },
+  "secondary": {
+    "500": "#F57C00",
+    "600": "#E65100",
+    "700": "#BF360C"
+  },
+  "success": "#2E7D32",
+  "warning": "#F9A825",
+  "danger": "#C62828",
+  "info": "#0288D1",
+  "background": {
+    "default": "#0F172A",
+    "surface": "#1E293B",
+    "elevated": "#334155"
+  },
+  "text": {
+    "primary": "#F8FAFC",
+    "secondary": "#CBD5E1",
+    "muted": "#94A3B8"
+  },
+  "radio": {
+    "misfitRed": "#D62828",
+    "signalBlue": "#1E88E5",
+    "waveGreen": "#2A9D8F",
+    "broadcastOrange": "#F77F00"
+  }
+}
