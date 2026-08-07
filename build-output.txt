@@ -1,0 +1,53 @@
+$ turbo run build
+• turbo 2.10.8
+
+   • Packages in scope: @spearhead/azuracast, @spearhead/config, @spearhead/core, @spearhead/database, @spearhead/discord, @spearhead/events, @spearhead/logger, @spearhead/media, @spearhead/metrics, @spearhead/platform, @spearhead/scheduler, @spearhead/shared, @spearhead/telemetry, @spearhead/types, @spearhead/ui
+   • Running build in 15 packages
+   • Remote caching disabled
+
+@spearhead/logger:build: cache miss, executing c0d577e8b0b2dbd8
+@spearhead/media:build: cache miss, executing b42d58c68d8a0643
+@spearhead/scheduler:build: cache miss, executing 05a227ae69f5e473
+@spearhead/config:build: cache miss, executing 8b1182f22e4592c7
+@spearhead/shared:build: cache miss, executing f613ad0a3750cc70
+@spearhead/telemetry:build: cache miss, executing 9e27323bbb04cbba
+@spearhead/discord:build: cache miss, executing d9a844231c26f14d
+@spearhead/platform:build: cache miss, executing 39122e8a5939608c
+@spearhead/azuracast:build: cache miss, executing b86d8fa4fbb61123
+@spearhead/database:build: cache miss, executing 7f95ca8b20bf070c
+@spearhead/logger:build: $ tsup src/index.ts
+@spearhead/media:build: $ tsup src/index.ts
+@spearhead/scheduler:build: $ tsup src/index.ts
+@spearhead/config:build: $ tsup src/index.ts
+@spearhead/shared:build: $ tsup src/index.ts
+@spearhead/telemetry:build: $ tsup src/index.ts
+@spearhead/azuracast:build: $ tsup src/index.ts
+@spearhead/discord:build: $ tsup src/index.ts
+@spearhead/logger:build: [34mCLI[39m Building entry: src/index.ts
+@spearhead/logger:build: [31mTypeError: Cannot read properties of undefined (reading 'compilerOptions')
+@spearhead/logger:build:     at loadTsConfigInternal (G:\Github Repos\spearhead-platform\node_modules\.pnpm\load-tsconfig@0.2.5\node_modules\load-tsconfig\dist\index.cjs:174:18)
+@spearhead/logger:build:     at loadTsConfig (G:\Github Repos\spearhead-platform\node_modules\.pnpm\load-tsconfig@0.2.5\node_modules\load-tsconfig\dist\index.cjs:209:35)
+@spearhead/logger:build:     at normalizeOptions (G:\Github Repos\spearhead-platform\node_modules\.pnpm\tsup@8.5.1_postcss@8.5.26_s_0880453944d4c1df036d6543d3d4b701\node_modules\tsup\dist\index.js:1456:48)
+@spearhead/logger:build:     at async G:\Github Repos\spearhead-platform\node_modules\.pnpm\tsup@8.5.1_postcss@8.5.26_s_0880453944d4c1df036d6543d3d4b701\node_modules\tsup\dist\index.js:1498:25
+@spearhead/logger:build:     at async Promise.all (index 0)
+@spearhead/logger:build:     at async build (G:\Github Repos\spearhead-platform\node_modules\.pnpm\tsup@8.5.1_postcss@8.5.26_s_0880453944d4c1df036d6543d3d4b701\node_modules\tsup\dist\index.js:1494:3)
+@spearhead/logger:build:     at async CAC.<anonymous> (G:\Github Repos\spearhead-platform\node_modules\.pnpm\tsup@8.5.1_postcss@8.5.26_s_0880453944d4c1df036d6543d3d4b701\node_modules\tsup\dist\chunk-DI5BO6XE.js:143:5)
+@spearhead/logger:build:     at async main (G:\Github Repos\spearhead-platform\node_modules\.pnpm\tsup@8.5.1_postcss@8.5.26_s_0880453944d4c1df036d6543d3d4b701\node_modules\tsup\dist\chunk-DI5BO6XE.js:148:3)[39m
+@spearhead/platform:build: $ tsup src/index.ts
+@spearhead/logger:build: [ELIFECYCLE] Command failed with exit code 1.
+@spearhead/ui:build: cache miss, executing 63d5e7889cf520aa
+@spearhead/database:build: $ tsup src/index.ts
+@spearhead/media:build: [34mCLI[39m Building entry: src/index.ts
+@spearhead/core:build: cache miss, executing bc2fb0a09174ae99
+@spearhead/events:build: cache miss, executing 01df7f846dfe8f76
+@spearhead/types:build: cache miss, executing e131b183597a65cf
+@spearhead/metrics:build: cache miss, executing fd859ef169955db8
+@spearhead/logger#build:  ERROR  command (G:\Github Repos\spearhead-platform\packages\logger) C:\Users\jaret\AppData\Roaming\npm\pnpm.cmd run build exited (1)
+
+ Tasks:    0 successful, 15 total
+Cached:    0 cached, 15 total
+  Time:    2.805s 
+Failed:    @spearhead/logger#build
+
+ ERROR  run failed: command  exited (1)
+[ELIFECYCLE] Command failed with exit code 1.

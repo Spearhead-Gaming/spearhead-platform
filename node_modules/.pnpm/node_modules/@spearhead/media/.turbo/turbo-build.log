@@ -1,0 +1,9 @@
+[6n[?9001h[?1004h[m]0;C:\WINDOWS\system32\cmd.exe[?25h]0;C:\WINDOWS\system32\cmd.exe [2m$ tsup src/index.ts
+[22m[34mCLI [mBuilding entry: src/index.ts
+[34mCLI [mUsing tsconfig: tsconfig.json[34m
+CLI [mtsup v8.5.1[34m
+CLI [mTarget: es2022[34m
+CJS [mBuild start
+[32mCJS [m[1mdist\index.js [32m[22m758.00 B
+[m[32mCJS [m⚡️ Build success in 147ms
+[?9001l[?1004l

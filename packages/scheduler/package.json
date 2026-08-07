@@ -2,12 +2,20 @@
   "name": "@spearhead/scheduler",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsup src/index.ts",
     "dev": "tsup src/index.ts --watch",
-    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
     "lint": "eslint src"
   }
 }
