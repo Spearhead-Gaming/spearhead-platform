@@ -1,0 +1,4 @@
+[6n[?9001h[?1004h[m]0;C:\WINDOWS\system32\cmd.exe[?25h]0;C:\WINDOWS\system32\cmd.exe [2m$ vitest run
+[22m[?25l[30m[46m[1m
+ RUN [m [36mv4.1.10 [90mG:/Github Repos/spearhead-platform/packages/database[m[6;1HNo test files found, exiting with code 0[2m[8;1Hinclude: [33m[22m**/*.{test,spec}.?(c|m)[jt]s?(x)[m[2m
+exclude:  [33m[22m**/node_modules/**[2m, [22m**/.git/**[m[11;1H[?25h[?9001l[?1004l

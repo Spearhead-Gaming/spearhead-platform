@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsup src/index.ts",
     "dev": "tsup src/index.ts --watch",
-    "test": "vitest",
+    "test": "vitest run",
     "lint": "eslint src"
   }
 }
