@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@11.20.0",
-
   "workspaces": [
     "apps/*",
     "packages/*",
     "plugins/*"
   ],
-
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -20,13 +18,12 @@
     "format:check": "prettier --check .",
     "typecheck": "turbo run typecheck"
   },
-
   "devDependencies": {
+    "prettier": "^3.6.0",
+    "tsup": "^8.5.1",
     "turbo": "^2.1.0",
-    "typescript": "^5.8.3",
-    "prettier": "^3.6.0"
+    "typescript": "^5.8.3"
   },
-
   "engines": {
     "node": ">=22",
     "pnpm": ">=10"
